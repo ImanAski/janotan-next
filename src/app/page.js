@@ -1,11 +1,8 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
 import Books from "@/components/Books";
-import Header from "../components/Header";
 import Hero from "@/components/Hero";
-import Book from "@/components/Book";
 import Description from "@/components/Description";
+import BookPreview from "@/components/BookPreview";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -31,7 +28,7 @@ export default function Home() {
       <Hero />
       <Description />
       <Books />
-      <Book />
+        <BookPreview />
     </div>
   );
 }
